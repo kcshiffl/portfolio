@@ -19,7 +19,7 @@ const Header = () => {
         <HeaderLink link='#experience' text='Experience' num='02' />
         <HeaderLink link='#projects' text='Projects' num='03'/>
         <HeaderLink link='#contact' text='Contact' num='04' />
-        <Button text='Resume' link={resume} newTab='true' />
+        <Button text='Resume' onClick={() => window.open(resume)}/>
       </header>
     </div>
   )
