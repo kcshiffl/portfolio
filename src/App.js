@@ -10,8 +10,6 @@ import { FaChevronDown } from 'react-icons/fa'
 import { bounce } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 
-
-
 const App = () => {
 
   /** Iterating through skills in Experience section */
