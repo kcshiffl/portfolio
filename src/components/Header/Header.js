@@ -16,7 +16,7 @@ const Header = () => {
         <HeaderLink link='#experience' text='Experience' num='02' />
         <HeaderLink link='#projects' text='Projects' num='03'/>
         <HeaderLink link='#contact' text='Contact' num='04' />
-        <Button text='Resume' link="/resume.pdf" newTab='true' />
+        <Button text='Resume' link="/Resume.pdf" newTab='true' />
       </header>
     </div>
   )
