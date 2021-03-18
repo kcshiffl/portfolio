@@ -1,4 +1,3 @@
-import hello from '../images/hello.png'
 const About = () => {
   return (
     <div className='abt'>
@@ -22,7 +21,7 @@ const About = () => {
       </div>
 
       <div>
-        <img src={hello} />
+        <img src={process.env.PUBLIC_URL+"hello.png"} />
         <p style={{fontSize: '10px'}} align='center'>A self-portrait.</p>
       </div>
     </div>

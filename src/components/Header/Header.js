@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import Button from '../General/Button'
 import HeaderLink from './HeaderLink'
-import logo from '../images/hello.png'
 import { FaHome } from 'react-icons/fa'
 
 const Header = () => {
@@ -17,7 +16,9 @@ const Header = () => {
         <HeaderLink link='#experience' text='Experience' num='02' />
         <HeaderLink link='#projects' text='Projects' num='03'/>
         <HeaderLink link='#contact' text='Contact' num='04' />
-        <Button text='Resume' link={process.env.PUBLIC_URL+"resume.pdf"} newTab='true' />
+        <a href="resume.pdf" target='_blank'>
+          <Button text='Resume' />
+        </a>
       </header>
     </div>
   )
