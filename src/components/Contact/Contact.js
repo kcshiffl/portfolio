@@ -31,11 +31,9 @@ const Contact = () => {
     <div className='contact'>
       <p className='abt-text' align='center' style={{paddingBottom: '3%', color: '#A8B7BC'}} >Want to talk?</p>
       <br></br>
-      <form action='mailto:kcshiffl@gmail.com' method='POST' enctype='multipart/form-data' name='EmailTestForm'>
         <div align='center' style={{marginBottom: '30%'}}>
-          <ContactButton text="Contact Me" newTab='true' scale={1.5} />
+          <ContactButton text="Contact Me" link='mailto:kcshiffl@gmail.com' newTab='true' scale={1.5} />
         </div>
-      </form>
     </div>
   )
 }
