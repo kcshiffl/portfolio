@@ -16,9 +16,7 @@ const Header = () => {
         <HeaderLink link='#experience' text='Experience' num='02' />
         <HeaderLink link='#projects' text='Projects' num='03'/>
         <HeaderLink link='#contact' text='Contact' num='04' />
-        <a href="resume.pdf" target='_blank'>
-          <Button text='Resume' />
-        </a>
+        <Button text='Resume' link="/resume.pdf" newTab='true' />
       </header>
     </div>
   )
