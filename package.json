@@ -1,14 +1,18 @@
 {
-  "name": "amplifyapp",
+  "name": "kcshifflcom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "radium": "^0.26.1",
     "react": "^17.0.1",
+    "react-animations": "^1.0.0",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
+    "react-textarea-autosize": "^8.3.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
