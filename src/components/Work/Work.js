@@ -7,7 +7,7 @@ import katth from '../images/KATTH_Project.gif';
 
 
 const Work = () => {
-  const kcshifflcom_desc = "This website - the first and only website I've made. Created with React JS. Provided a learning experience for front-end development with a heavy emphasis on Javascript and CSS.";
+  const kcshifflcom_desc = "This website. Created with React JS. Provided a learning experience for front-end development with a heavy emphasis on Javascript and CSS.";
   const kcshifflcom_git = "https://github.com/kcshiffl/kcshifflcom.git";
   const kcshifflcom_technologies = "React, Javascript, CSS, HTML";
 
@@ -28,7 +28,7 @@ const Work = () => {
   return (
     <div className='work'>
       <ProjectLeft title='Personal Website' image={kcshifflcom} description={kcshifflcom_desc} technologies = {kcshifflcom_technologies} github={kcshifflcom_git} youtube="" />
-      <ProjectRight title='Djisktra Shortest Path Graph' image={djikstra} description={djikstra_desc} technologies = {djikstra_technologies} github={djikstra_git} youtube="" />
+      <ProjectRight title='Dijkstra Shortest Path Graph' image={djikstra} description={djikstra_desc} technologies = {djikstra_technologies} github={djikstra_git} youtube="" />
       <ProjectLeft title='Ko and the Transient Heat' image={katth} description={katth_desc} technologies = {katth_technologies} github={katth_git} youtube={katth_youtube}/>
       <ProjectRight title='Movie Recommender System' image={movie} description={movie_desc} technologies = {movie_technologies} github={movie_git} youtube="" />
     </div>

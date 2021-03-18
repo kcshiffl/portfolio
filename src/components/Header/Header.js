@@ -5,7 +5,6 @@ import logo from '../images/hello.png'
 import { FaHome } from 'react-icons/fa'
 
 const Header = () => {
-
   return(
     <div>
       <div id="link_home">
