@@ -6,9 +6,9 @@ const Applications = ( {visible} ) => {
     <div className='exp-overlay'>
       <div style={{float: 'left', paddingRight: '50px'}} >
         <div className='exp-skill'>
-          <FaCaretRight class='exp-skill-arrow' />Unity</div>
+          <FaCaretRight class='exp-skill-arrow' />AWS</div>
         <div className='exp-skill'>
-          <FaCaretRight class='exp-skill-arrow' />React</div>
+          <FaCaretRight class='exp-skill-arrow' />Unity</div>
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Outlook</div>
         <div className='exp-skill'>

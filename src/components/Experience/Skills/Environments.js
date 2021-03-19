@@ -6,7 +6,9 @@ const Environments = ( {visible} ) => {
     <div className='exp-overlay'>
       <div style={{float: 'left', paddingRight: '75px'}} >
         <div className='exp-skill'>
-          <FaCaretRight class='exp-skill-arrow' />Github</div>
+          <FaCaretRight class='exp-skill-arrow' />Git</div>
+        <div className='exp-skill'>
+          <FaCaretRight class='exp-skill-arrow' />Atom</div>
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Visual Studio</div>
         <div className='exp-skill'>
@@ -14,6 +16,8 @@ const Environments = ( {visible} ) => {
       </div>
 
       <div style={{float: 'left', paddingRight: '75px'}}>
+        <div className='exp-skill'>
+          <FaCaretRight class='exp-skill-arrow' />React</div>
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />JUnit</div>
         <div className='exp-skill'>

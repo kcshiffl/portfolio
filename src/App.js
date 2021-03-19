@@ -31,6 +31,12 @@ const App = () => {
       open: false,
       highlight: false,
     },
+
+    { row: 4,
+      name: 'AWS Services',
+      open: false,
+      highlight: false,
+    }
   ])
 
   /** Opening and closing Experience section tabs **/
@@ -85,7 +91,7 @@ const App = () => {
       <Work />
 
       <div id='contact' style={{ paddingTop: '7%' }}></div>
-      <div className='titles' style={{ paddingLeft: '30%' }}>
+      <div className='titles' style={{ paddingLeft: '40%' }}>
         <p style={{display: 'inline-block', color: '#ef5ae7', fontSize: '20px'}}>04. &emsp;</p>
         Contact
       </div>
