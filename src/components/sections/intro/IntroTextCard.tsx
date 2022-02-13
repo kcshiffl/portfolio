@@ -1,6 +1,6 @@
 import { makeStyles, Typography } from "@material-ui/core"
 import { CSSProperties } from "react"
-import MyButton from "../../general/MyButton"
+import MyButton from "../MyButton"
 
 const useStyles = makeStyles({
     flex: {

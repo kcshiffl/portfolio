@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core'
 import { FaHome } from 'react-icons/fa'
 import HeaderLink from "./HeaderLink"
-import MyButton from '../../general/MyButton'
+import MyButton from '../MyButton'
 
 const useStyles = makeStyles({
     header: {

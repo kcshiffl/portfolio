@@ -1,5 +1,5 @@
 import { makeStyles, Typography } from '@material-ui/core'
-import MyButton from '../general/MyButton'
+import MyButton from './MyButton'
 import SectionTitle from './SectionTitle'
 
 const useStyles = makeStyles({
