@@ -23,7 +23,7 @@ type SectionTitleProps = {
     number: string
 }
 
-export default function Title(componentProps: SectionTitleProps) {
+export default function SectionTitle(componentProps: SectionTitleProps) {
     const classes = useStyles()
 
     return (

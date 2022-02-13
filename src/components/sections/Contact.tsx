@@ -1,7 +1,7 @@
 import { makeStyles, Typography } from '@material-ui/core'
-import { CSSProperties } from 'react'
 import MyButton from '../general/MyButton'
 import SectionTitle from '../general/SectionTitle'
+
 const useStyles = makeStyles({
     centerRow: {
         display: 'flex',

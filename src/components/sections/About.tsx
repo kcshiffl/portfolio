@@ -30,6 +30,11 @@ const useStyles = makeStyles({
         color: '#A8B7BC',
         fontFamily: 'Courier New, monospace',
     },
+    centerText: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+    }
 })
 
 export default function About() {
@@ -45,18 +50,21 @@ export default function About() {
                         <br/><br/>
                         I'm Kim, a software engineer based in the Washington, DC area.
                         <br/><br/>
-                        I love creating things, whether that be through silly little doodles or full-blown development projects.
-                        In my free time, I like playing video games (both console and PC - I'm also a particularly huge Pokémon nut).
+                        I love creating things. My pastimes are making silly doodles or random development projects.
                         <br/><br/>
-                        Right now, I'm currently looking for an opportunity to work on meaningful projects with a motivated, creative team.
+                        In my free time, I love playing video games (I'm a particularly huge Pokémon nut).
+                        <br/><br/>
+                        My end goal is to work on meaningful projects with a motivated, creative team.
                     </Typography>
                 </div>
 
                 <div>
                     <img src={process.env.PUBLIC_URL+"hello.png"} />
-                    <Typography className={classes.portraitText}>
-                        A self-portrait.
-                    </Typography>
+                    <div className={classes.centerText}>
+                        <Typography className={classes.portraitText}>
+                            A self-portrait.
+                        </Typography>
+                    </div>
                 </div>
             </div>
         </div>

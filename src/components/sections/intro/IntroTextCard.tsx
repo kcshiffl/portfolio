@@ -20,6 +20,7 @@ const useStyles = makeStyles({
         color: '#dab4d2',
         fontSize: '25px',
         fontFamily: 'Courier New, monospace',
+        marginBottom: '15px',
     },
     homeText: {
         color: 'white',
@@ -48,7 +49,7 @@ export default function IntroTextCard(){
                 I'm Kim Shifflett.
             </Typography>
             <Typography className={classes.homeText}>
-                I'm a recent George Mason University graduate with a BS in Computer Science
+                I'm a software engineer with a BS in Computer Science
                 and a Minor in Computer Game Design.
             </Typography>
             <div className={classes.flexCenterRow}>

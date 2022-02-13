@@ -37,7 +37,7 @@ export default function Header() {
             <HeaderLink link='#experience' text='Experience' number='02' />
             <HeaderLink link='#projects' text='Projects' number='03' />
             <HeaderLink link='#contact' text='Contact' number='04' />
-            <MyButton link='/Resume.pdf' text='Resume' newTab={true} />
+            <MyButton link='/Resume.pdf' text='Resumé' newTab={true} />
         </header>
     </div>
     )
