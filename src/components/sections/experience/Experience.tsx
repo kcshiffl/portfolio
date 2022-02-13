@@ -1,6 +1,6 @@
 import { Box, makeStyles } from "@material-ui/core"
 import { useState } from "react"
-import SectionTitle from "../../general/SectionTitle"
+import SectionTitle from "../SectionTitle"
 import CategoryButton from "./CategoryButton"
 import ExperienceCategory from "./ExperienceCategory"
 

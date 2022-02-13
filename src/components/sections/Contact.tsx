@@ -1,6 +1,6 @@
 import { makeStyles, Typography } from '@material-ui/core'
 import MyButton from '../general/MyButton'
-import SectionTitle from '../general/SectionTitle'
+import SectionTitle from './SectionTitle'
 
 const useStyles = makeStyles({
     centerRow: {

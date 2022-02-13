@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core'
-import SectionTitle from '../../general/SectionTitle'
+import SectionTitle from '../SectionTitle'
 import Project, { ProjectProps } from './project/Project'
 import kcshifflcom from '../../images/kcshifflcom.png'
 import djikstra from '../../images/Djikstra_Project.gif'
