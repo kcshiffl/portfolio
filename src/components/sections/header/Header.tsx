@@ -1,7 +1,6 @@
 import { makeStyles } from '@material-ui/core'
 import { FaHome } from 'react-icons/fa'
 import HeaderLink from "./HeaderLink"
-import { useHistory } from 'react-router-dom'
 import MyButton from '../../general/MyButton'
 
 const useStyles = makeStyles({
@@ -25,8 +24,7 @@ const useStyles = makeStyles({
 
 export default function Header() {
     const classes = useStyles()
-    let history = useHistory();
-
+    
     return (
     <div className={classes.header}>
         <div id="link_home">
