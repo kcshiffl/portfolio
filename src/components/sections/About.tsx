@@ -48,7 +48,7 @@ export default function About() {
                     <Typography className={classes.text}>
                         Hi!
                         <br/><br/>
-                        I'm Kim, a software engineer based in the Washington, DC area.
+                        I'm Kim, a software engineer based in the Seattle area.
                         <br/><br/>
                         I love creating things. My pastimes are making silly doodles or random development projects.
                         <br/><br/>

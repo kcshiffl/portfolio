@@ -49,7 +49,7 @@ export default function IntroTextCard(){
                 I'm Kim Shifflett.
             </Typography>
             <Typography className={classes.homeText}>
-                I'm a software engineer with a BS in Computer Science
+                I'm a Software Engineer with a BS in Computer Science
                 and a Minor in Computer Game Design.
             </Typography>
             <div className={classes.flexCenterRow}>
